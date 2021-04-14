@@ -4,10 +4,6 @@ import about from "./about";
 import home from "./home";
 import menu from "./menu";
 
-console.log(home);
-console.log(about);
-console.log(menu);
-
 const buttons = Array.from(document.querySelectorAll("button"));
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
