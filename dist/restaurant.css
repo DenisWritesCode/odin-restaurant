@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --black: #000;
+  --blue: #14213d;
+  --yellow: #fca311;
+  --grey: #e5e5e5;
+  --white: #fff;
+}
+
+.content {
+  background-color: var(--blue);
+  color: var(--grey);
+}
