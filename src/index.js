@@ -12,7 +12,9 @@ buttons.forEach((button) => {
         webContent.innerText = home();
         break;
       case "menu":
-        webContent.innerText = menu();
+        console.log(menu());
+        webContent.innerHTML = "";
+        webContent.appendChild(menu());
         break;
       case "about":
         webContent.innerText = about();
